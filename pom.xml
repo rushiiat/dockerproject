@@ -21,6 +21,9 @@
     <version>7.5</version>
 </dependency>
   
+  <build>
+<finalName>java-jenkins-docker</finalName>
+</build>
   
   
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
