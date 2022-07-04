@@ -6,7 +6,10 @@
   <artifactId>Main</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
+  
+  <build>
+<finalName>java-jenkins-docker</finalName>
+</build>
   <name>Main</name>
   <url>http://maven.apache.org</url>
 
@@ -21,9 +24,7 @@
     <version>7.5</version>
 </dependency>
   
-  <build>
-<finalName>java-jenkins-docker</finalName>
-</build>
+  
   
   
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
